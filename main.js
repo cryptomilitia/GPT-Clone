@@ -5,8 +5,7 @@ const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
 let userText = null;
-const API_KEY = "AIzaSyD260a9IYi6ncW58gS4sm2L-2-NpQxizaQ"; // Gemini API key
-
+const API_KEY = "Your_API_Key";
 const loadDataFromLocalstorage = () => {
     // Load saved chats and theme from local storage and apply/add on the page
     const themeColor = localStorage.getItem("themeColor");
